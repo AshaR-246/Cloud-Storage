@@ -10,7 +10,7 @@ class TranseferData:
         f = open(file_from, 'rb')
         dbx.files_upload(f.read(), file_to)
 def main():
-    access_token='sl.AbKQY7cwlr949HZB7JxLOMrnYKuY39PSkiEnMjmzkLJ8mukldzSQjT8oLVfn_A-kB4yn6O0erRD07aV-9JeaGvvRPoLFEVvwg3_p2AufnKjhGlCgTVtpR4YV0SKhk6nbU2-ztZAB'
+    access_token='sl.AsUjgqCUhOwfHuQFQD-z05HxMAUauRaj66SosQ81gh2gkdGrB2wD0sL4CDsL1B4jJirT9DtM-nW5XzBl2IA89rs7U1qMWj8Jd440YWxVi4_BUgL1F5cLDkTlSEHtjeOiu9dpUlg'
     transferData = TransferData(access_token)
 file_from =input("Enter the file pathto transfer:-")
  file_to = input("enter the full path to upload to dropbox:- ")  # This is the full path to upload the file to, including name that you wish the file to be called once uploaded.
